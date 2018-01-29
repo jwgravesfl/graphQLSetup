@@ -1,12 +1,13 @@
+import Resolutions from './resolutions'
+
+// Resolutions.insert ({
+//     name: "Test Res"
+// })
+
 export default {
     Query: {
         resolutions() {
-            return [
-                {
-                    _id: "Random Data",
-                    name: "Get Stuff Done!"
-                }
-            ]
+            return Resolutions.find({}).fetch()
         }
     }
 }
