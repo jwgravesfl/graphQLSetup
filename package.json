@@ -19,7 +19,9 @@
     "meteor-node-stubs": "~0.2.4",
     "react": "^16.2.0",
     "react-apollo": "^2.0.4",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "superagent": "^3.8.2",
+    "yelp-fusion": "^2.0.3"
   },
   "devDependencies": {
     "babel-plugin-inline-import": "^2.0.6"
